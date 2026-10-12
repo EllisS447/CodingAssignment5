@@ -29,3 +29,6 @@ ol{line-height: 1.5;}
     clear: both;
     display: block;
 }
+div {
+    border: double cornflower blue;
+}
