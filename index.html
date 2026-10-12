@@ -11,22 +11,37 @@
   <body style="background-image:url('images/edamame-recipe-page-background.jpg'); font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color:black">
     <h1>Evening Edamame</h1>
         <div class="wrapper">
-            <div class="box1">
+          <div class="row">
+           <div class="col" style="width25%">
         <h2>Edamame</h2>
         <p>Recipe by: Sydney Ellis</p>
         </div>
-        <div class="box2">
+        <div class="col" style="width50%">
         <figure>
         <img src="images/paprika-edamame-pea-pods.jpg" alt="Paprika seasoned edamame" height="250">
         <figcaption>Image source: Public Domain Pictures</figcaption>
     </figure>
 </div>
-
+<div class="col" style="width25%">
+<h3 class="rate">Rate This Recipe</h3>
+    <fieldset style="width: 250px;">
+      <legend>How difficult is this recipe?</legend>
+        <input type="radio" id="easy" name="easy"> Easy
+        <input type="radio" id="med" name="med">Intermediate
+        <input type="radio" id="hard" name="hard"> Hard
+    </fieldset>
+    <p>&nbsp;</p>
+    <h3>Conversion</h3>
+    <input type="text" id="tblspn" name ="tblspn">
+    =
+    <input type="text" id="cups" name="cups">
+</div>
+</div>
 </div>
 <div class="wrapper">
-<div class="box3">
+<div class="row">
   <!-- BEGIN ROW THREE -->
-  <div class="row">
+
     <div class="col" style"width:25%">
     <h3>Ingredients</h3>
     <ul>
@@ -39,19 +54,8 @@
     </ul>
     </div>
 
-    <h3 class="rate">Rate This Recipe</h3>
-    <fieldset style="width: 250px;">
-      <legend>How difficult is this recipe?</legend>
-        <input type="radio" id="easy" name="easy"> Easy
-        <input type="radio" id="med" name="med">Intermediate
-        <input type="radio" id="hard" name="hard"> Hard
-    </fieldset>
-    <p>&nbsp;</p>
-    <h3>Conversion</h3>
-    <input type="text" id="tblspn" name ="tblspn">
-    =
-    <input type="text" id="cups" name="cups">
-
+    
+<div class="col" style="width:15%">
     <h3>Equipment</h3> 
     <ul>
         <li>Heat-resisitant spoon or slotted ladle</li>
@@ -60,9 +64,10 @@
         <li>Bowl</li>
         <li>Bowl lid</li>
         <li>Kitchen knife</li>
-    </ul>   
+    </ul>  
 </div>
-<div class="box4">
+</div>
+
 <div class="col-12" style="width:60%">
     <h3>Directions</h3>
     <ol>
@@ -83,7 +88,9 @@
     </div>
     </div>
     </div>
+    <div class="row">
 <hr>
 <p style="text-align: right;">This page created as academic activity only.</p>
+      </div>
 </body>  
 </html>
