@@ -14,7 +14,7 @@ legend{font-weight: bold;}
 input{margin: 5px;}
 ol{line-height: 1.5;} 
 .wrapper {display: flex;}
-.wrapper div {flex:1;}
+
 * {
     box-sizing: border-box;
 }
